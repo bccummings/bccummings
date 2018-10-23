@@ -8,12 +8,12 @@ body {
   margin: 0;
 }
 
-#notfound {
+#home {
   position: relative;
   height: 100vh;
 }
 
-#notfound .notfound {
+#home .home {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -22,21 +22,21 @@ body {
           transform: translate(-50%, -50%);
 }
 
-.notfound {
+.home {
   max-width: 767px;
   width: 100%;
   line-height: 1.4;
   padding: 0px 15px;
 }
 
-.notfound .notfound-404 {
+.home .home-404 {
   position: relative;
   height: 150px;
   line-height: 150px;
   margin-bottom: 25px;
 }
 
-.notfound .notfound-404 h1 {
+.home .home-greeting h1 {
   font-family: 'Titillium Web', sans-serif;
   font-size: 186px;
   font-weight: 900;
@@ -48,21 +48,21 @@ body {
   background-position: center;
 }
 
-.notfound h2 {
+.home h2 {
   font-family: 'Titillium Web', sans-serif;
   font-size: 26px;
   font-weight: 700;
   margin: 0;
 }
 
-.notfound p {
+.home p {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 0px;
 }
 
-.notfound a {
+.home a {
   font-family: 'Titillium Web', sans-serif;
   display: inline-block;
   color: #fff;
@@ -78,16 +78,16 @@ body {
   transition: 0.2s all;
 }
 
-.notfound a:hover {
+.home a:hover {
   opacity: 0.8;
 }
 
 @media only screen and (max-width: 767px) {
-  .notfound .notfound-404 {
+  .home .home-404 {
     height: 110px;
     line-height: 110px;
   }
-  .notfound .notfound-404 h1 {
+  .home .home-404 h1 {
     font-size: 120px;
   }
 }
