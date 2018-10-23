@@ -16,7 +16,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:700,900" rel="stylesheet">
 
   <!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="css/404.css" />
+	<link type="text/css" rel="stylesheet" href="css/home.css" />
   <link type="text/css" rel="stylesheet" href="css/navbar.css" />
 
 </head>
@@ -32,9 +32,9 @@
   </div>
 
   <!-- Main Text -->
-	<div id="notfound">
-		<div class="notfound">
-			<div class="notfound-404">
+	<div id="home">
+		<div class="home">
+			<div class="home-greeting">
 				<h1>404</h1>
 			</div>
 			<h2>Oops! This Page Could Not Be Found</h2>
