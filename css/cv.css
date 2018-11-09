@@ -81,6 +81,12 @@ body {
 .content h3.color4{background:#ca5c54;}
 .content h3.color5{background:#e7af5f;}
 
+.details table, th, td{
+  width: 75%;
+  height: 75%;
+  padding: 0px;
+}
+
 .details h4{
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
