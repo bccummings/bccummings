@@ -16,6 +16,7 @@
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/home.css" />
   <link type="text/css" rel="stylesheet" href="css/navbar.css" />
+  <link type="text/css" rel="stylesheet" href="css/samples.css"/>
 
 </head>
 
@@ -32,17 +33,32 @@
 </body>
 
 <!-- Main Text -->
-<div id="home">
-  <div class="home">
-    <div class="home-greeting">
-      <h1>Hello!</h1>
+<!-- Based on  code from https://codepen.io/lamchang/pen/PQGQyR by Lam Chang -->
+<section class="wrapper">
+
+  <!-- BEGIN: card -->
+  <div class="card" data-effect="zoom">
+    <button class="card__save  js-save" type="button">
+      <i class="fa  fa-bookmark"></i>
+     </button>
+    <figure  class="card__image">
+      <img src="img/abp.png" alt="Short description">
+    </figure>
+    <div class="card__header">
+      <figure class="card__profile">
+        <img src="img/pharmacy.jpg" alt="Short description">
+      </figure>
     </div>
-    <h2>Welcome to bccummings.com</h2>
-    <p>This website is still under construction, but please check back later!</p>
-    <a href="https://github.com/bccummings">Visit bccummings on GitHub</a>
+    <div class="card__body">
+      <h3 class="card__name">Mortality in Sepsis</h3>
+      <p class="card__job">Using the MIMIC-III database</p>
+      <p class="card__bio">Using MIT's MIMIC-III database to predict mortality in sepsis and septic shock.</p>
+    </div>
+    <div class="card__footer">
+      <p class="card__date">Dec 14 2018</p>
+      <p class=""></p>
+    </div>
   </div>
-</div>
+  <!-- END: card -->
 
-</body>
-
-</html>
+</section>
