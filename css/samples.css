@@ -207,17 +207,14 @@ body {
 
 .card__name {
   align-self: center;
-  justify-self: center;
   margin-bottom: 2px;
-  color: white;
   font-family: 'Titillium Web', sans-serif;
   font-size: var(--fontLarge);
   font-weight: var(--fontLight);
   letter-spacing: 0.1rem;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  background: -webkit-linear-gradient(white, #a1a1a1);
+  background: -webkit-linear-gradient(#a1a1a1, #5b7897);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: all var(--speed) ease;
@@ -225,27 +222,26 @@ body {
 }
 
 .card:hover .card__name {
-  background: -webkit-linear-gradient(white, #c1c1c1);
+  background: -webkit-linear-gradient(#a1a1a1, #5b7897);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .card__job {
   align-self: center;
-  justify-self: center;
   display: inline-block;
   font-family: 'Titillium Web', sans-serif;
   font-size: var(--fontSmall);
   font-weight: var(--fontLight);
   text-align: center;
   letter-spacing: 0.35rem;
-  color: #2f3e4e;
+  color: #a1a1a1;
   -webkit-transition: all var(--speed) ease;
   transition: all var(--speed) ease;
 }
 
 .card:hover .card__job {
-  color: #2f3e4e;
+  color: #a1a1a1;
 }
 
 .card__bio {
